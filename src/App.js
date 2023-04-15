@@ -1,8 +1,14 @@
 import React from 'react';
-import Thermostat from './components/Thermostat';
+
+import Projects from './Pages/Projects';
+import Header from './components/Header';
 
 function App() {
-  return <Thermostat />;
+  return <>
+   <Header/>
+  <Projects />;
+  </>
+ 
 }
 
 export default App;
