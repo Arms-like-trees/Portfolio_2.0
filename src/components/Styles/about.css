@@ -1,0 +1,10 @@
+.about-section {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-section img {
+    width: 90%;
+    height: auto;
+}

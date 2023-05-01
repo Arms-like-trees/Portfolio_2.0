@@ -1,12 +1,10 @@
 import React from 'react';
 
-import Projects from './Pages/Projects';
-import Header from './components/Header';
+import PortfolioContainer from './components/PortfolioContainer';
 
 function App() {
   return <>
-   <Header/>
-  <Projects />;
+  <PortfolioContainer/>
   </>
  
 }

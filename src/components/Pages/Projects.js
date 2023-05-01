@@ -1,21 +1,56 @@
 import React from 'react';
-import ProjectCard from '../../components/ProjectCards';
+import ProjectCard from '../../components/ProjectCard';
+import LetterDrop from '../SkillDrop';
 
 const projects = [
     {
         key:1,
-        projectName:"nsmes",
-        projectDescription:"some description",
-        // projectImage:,
-    }
-]
+        projectName:"Password Generator",
+        projectDescription:"A site where you can generate a secure password quickly utilizing JavaScript",
+        projectImage:"/images/Password-generator.png",
+        projectAlt:"Password Generator screenshot",
+        projectSite:"https://arms-like-trees.github.io/challenge-module-3/",
+        // projectRepo: ""
+    },
+    {
+      key:2,
+      projectName:"Weather dashbord",
+      projectDescription:"A site where you can generate the current weather as well as the next 5-day forecast using API call to ",
+      projectImage:"/images/weather-dashboard.png",
+      projectAlt:"Weather dashboard display",
+      projectSite:"https://arms-like-trees.github.io/Challenge-6-Weather-Dashboard/"
+  },
+  {
+    key:3,
+    projectName:"First portfolio",
+    projectDescription:"My first portfolio that I created only using html and css",
+    projectImage:"/images/first-portfolio.png",
+    projectAlt:"View of first created portfolio",
+    projectSite:"https://https://arms-like-trees.github.io/Portfolio//"
+},
+];
+
+const styles ={
+  portfolio: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    padding: '1rem',
+    margin: '1rem'
+  }, 
+  
+}
 
 export default function Projects() {
   return (<>
    <h2> Works</h2>
- {projects.map(project => (
+   <LetterDrop/>
+    {/*In this div below is where Ill put the className to make the works into a grid as well as anybackground I would like to encompass behind the works */}
+   <div style={styles.portfolio} >
+    {projects.map(project => (
     <ProjectCard {...project}/>
  ))}
+   </div>
+ 
   </>
   );
  
