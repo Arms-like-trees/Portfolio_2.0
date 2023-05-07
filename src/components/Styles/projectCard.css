@@ -1,5 +1,6 @@
 img {
-    border: 1px solid red
+    border: 1px solid red;
+    margin: 1rem
 }
 
 
@@ -14,5 +15,6 @@ img:hover {
 }
 
 .tb:hover {
-    opacity: 1;
+    opacity: 10;
+    background-color: teal;
 }

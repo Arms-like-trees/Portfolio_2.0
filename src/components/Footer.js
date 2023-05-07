@@ -1,24 +1,23 @@
 import React from 'react';
+import {Container, Row, Col} from 'react-bootstrap';
+
 
 export default function Footer() {
   return (
     <div className='bg-success'>
-      <h1>Footer</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+      <footer>
+<Row>
+  <Col>
+  <div>
+    <a href='https://github.com/Arms-like-trees'><img src='/images/icons-github.png' alt='Github logo'/></a>
+    <a href='https://www.linkedin.com/in/christopher-newell-3322b826b/'><img src='/images/icons-linkedin.png' alt='Linkedin logo'/></a>
+  </div>
+  </Col>
+  <p>Social media icons sourced through icons8.  See what else they have in store <a href="https://icons8.com/">here!</a></p>
+</Row>
+
+      </footer>
+      
     </div>
   );
 }

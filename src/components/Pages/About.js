@@ -13,7 +13,13 @@ export default function About() {
           </div>
           <div className='col-md-6'>
             <p >
-              Howdy.  My name is Christopher Newell, but I go by CJ.  I come from the great state of Texas.  I am ambtious and love tackling problems so that I can be challenged and learn something new.  I am driven to problem solve by figuring out how something works and then push it to the limits.
+              Howdy.  My name is Christopher Newell, but I go by CJ.  I am fortunate to have been born and raised in the great state of Texas, while looking forward to raising my family here as well.  I love playing games, both board games and video games, particularly ones that involve strategey, exploration, and a bit of luck.
+            </p>
+            <p>
+              I am ambtious and love tackling problems so that I can learn something new.  I am driven to problem solve by figuring out how something works and then push it to the limits while increasing the proficiency.
+            </p>
+            <p>
+              
             </p>
           </div>
 
