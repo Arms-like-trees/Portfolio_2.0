@@ -2,3 +2,5 @@ node_modules
 
 **/SkillDrop
 src/components/SkillDrop/**
+
+build
