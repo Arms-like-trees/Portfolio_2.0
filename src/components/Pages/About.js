@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Styles/about.css'
+import ProfilePic from '../../images/ProfilePic.jpg'
 
 export default function About() {
   return (
@@ -9,7 +10,7 @@ export default function About() {
         <div className='row '>
           
           <div className='col-md-6 about-section'>
-            <img src='/images/ProfilePic.jpg' alt='Profile pic' />
+            <img src={ProfilePic} alt='Profile pic' />
           </div>
           <div className='col-md-6'>
             <p >

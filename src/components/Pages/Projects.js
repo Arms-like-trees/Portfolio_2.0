@@ -1,13 +1,15 @@
 import React from 'react';
 import ProjectCard from '../../components/ProjectCard';
-import LetterDrop from '../SkillDrop';
+// import LetterDrop from '../SkillDrop';
+import PasswordGenerator from '../../images/Password-generator.png';
+
 
 const projects = [
     {
         key:1,
         projectName:"Password Generator",
         projectDescription:"A site where you can generate a secure password quickly utilizing JavaScript",
-        projectImage:"/images/Password-generator.png",
+        projectImage:{PasswordGenerator},
         projectAlt:"Password Generator screenshot",
         projectSite:"https://arms-like-trees.github.io/challenge-module-3/",
         // projectRepo: ""
