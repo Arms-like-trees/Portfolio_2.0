@@ -2,6 +2,11 @@ import React from 'react';
 import ProjectCard from '../../components/ProjectCard';
 // import LetterDrop from '../SkillDrop';
 import PasswordGenerator from '../../images/Password-generator.png';
+import WeatherDashboard from '../../images/weather-dashboard.png';
+import firstPortfolio from '../../images/first-portfolio.png';
+import JSQuiz from '../../images/startscreenshot.png';
+import Typewriter from  '../../images/typewriter.png';
+import ComingSoon from '../../images/placeholder.jpeg'
 
 
 const projects = [
@@ -9,7 +14,7 @@ const projects = [
         key:1,
         projectName:"Password Generator",
         projectDescription:"A site where you can generate a secure password quickly utilizing JavaScript",
-        projectImage:{PasswordGenerator},
+        projectImage:PasswordGenerator,
         projectAlt:"Password Generator screenshot",
         projectSite:"https://arms-like-trees.github.io/challenge-module-3/",
         // projectRepo: ""
@@ -18,7 +23,7 @@ const projects = [
       key:2,
       projectName:"Weather dashbord",
       projectDescription:"A site where you can generate the current weather as well as the next 5-day forecast using API call to ",
-      projectImage:"/images/weather-dashboard.png",
+      projectImage:WeatherDashboard,
       projectAlt:"Weather dashboard display",
       projectSite:"https://arms-like-trees.github.io/Challenge-6-Weather-Dashboard/"
   },
@@ -26,7 +31,7 @@ const projects = [
     key:3,
     projectName:"First portfolio",
     projectDescription:"My first portfolio that I created only using html and css",
-    projectImage:"/images/first-portfolio.png",
+    projectImage:firstPortfolio,
     projectAlt:"View of first created portfolio",
     projectSite:"https://arms-like-trees.github.io/Portfolio/"
 },
@@ -34,7 +39,7 @@ const projects = [
   key:4,
   projectName:"Quiz game using Javascript",
   projectDescription:"A sinple game quiz using Javascript",
-  projectImage:"/images/startscreenshot.png",
+  projectImage:JSQuiz,
   projectAlt:"Start screen of Javascrip minigame quiz",
   projectSite:"https://arms-like-trees.github.io/Challenge-4/"
 },
@@ -42,9 +47,17 @@ const projects = [
   key:5,
   projectName:"README generator",
   projectDescription:"Command-line application that utilizes node.js to create a README",
-  projectImage:"/images/typewriter.png",
+  projectImage:Typewriter,
   projectAlt:"Typewriter",
   projectSite:"https://github.com/Arms-like-trees/Challenge_9_Node.js_Proffessional_README_Generator"
+},
+{
+  key:6,
+  projectName:"Coming soon",
+  projectDescription:"To be determined",
+  projectImage:ComingSoon,
+  projectAlt:"Coming Soon",
+  projectSite:"https://github.com/Arms-like-trees"
 },
 ];
 
